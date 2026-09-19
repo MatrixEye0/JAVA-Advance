@@ -53,7 +53,7 @@ class MCA extends College {
 }
 
 // Main class
-public class Main {
+ class Inheritance {
     public static void main(String[] args) {
 
         MCA student = new MCA();
