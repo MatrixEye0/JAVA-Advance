@@ -15,5 +15,7 @@ class Square {
         obj.side = sc.nextInt(); 
         obj.area();
         obj.parameter();
+
+        sc.close();
     }
 }

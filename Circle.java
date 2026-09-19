@@ -17,6 +17,8 @@ class Circle {
         obj.radius = sc.nextInt(); 
         obj.area();
         obj.circumference();
+
+        sc.close();
     }
     
 }
