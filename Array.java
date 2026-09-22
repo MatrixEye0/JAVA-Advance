@@ -7,7 +7,8 @@ public class Array {
         int n = sc.nextInt();
         
         System.out.println("Enter " + n + " elements:");
-        int[] arr = new int[n];
+        int[] arr = new int[n]; // declare array 
+        // int [][][] arr = new int[n][n][n]; 3D array
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
