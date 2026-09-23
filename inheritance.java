@@ -61,7 +61,7 @@ class MCA extends College {
         student.input();       // College class method
         student.mcaInput();   // MCA class method
 
-        System.out.println("\n--- Student Details ---");
+        System.out.println("--- Student Details ---");
 
         student.mcaShow();    // Display all details
     }
