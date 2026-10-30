@@ -9,11 +9,11 @@ public class StringBufferDemo {
         System.out.println("After append: " + sb); // Output: Hello World
 
         // 3. insert() - FIXED: Added quotation marks around "Java"
-        sb.insert(5, "Java");
+        sb.insert(6, "Java");
         System.out.println("After insert: " + sb); // Output: HelloJava World
 
         // 4. replace() - Replaces text from start index (inclusive) to end index (exclusive)
-        sb.replace(5, 9, " Beautiful");
+        sb.replace(0, 9, " Beautiful");
         System.out.println("After replace: " + sb); // Output: Hello Beautiful World
 
         // 5. delete() - Deletes characters between two indices
