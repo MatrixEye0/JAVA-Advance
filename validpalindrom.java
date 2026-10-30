@@ -1,4 +1,3 @@
-
 public class validpalindrom {
 
     public boolean isPalindrome(String s) {
@@ -40,7 +39,9 @@ public class validpalindrom {
         validpalindrom obj = new validpalindrom();
 
         String s = "A man, a plan, a canal: Panama";
+        String ss = "Jagjit singh";
 
         System.out.println(obj.isPalindrome(s));
+        System.out.println(obj.isPalindrome(ss));
     }
 }
