@@ -17,7 +17,7 @@ public class BuySellStock {
     }
     public static void main(String[] args) {
         BuySellStock stockTrader = new BuySellStock();
-        int[] prices = {7,1,5,3,6,4,6,9,3,1,4,8,2};
+        int[] prices = {7,1,5,3,6,4,6,9,3,1,4,8,2,2,15,4};
         int profit = stockTrader.maxProfit(prices);
         System.out.println("Maximum profit: " + profit); // Output: Maximum profit:
     }
