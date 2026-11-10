@@ -7,7 +7,7 @@ class firstThread extends Thread {
     }
 // child thread 
     public void run() {
-        for (int i = 1; i <= 26; i++) {
+        for (int i = 1; i <= 52; i++) {
           System.out.print(i);  
         }
     }
