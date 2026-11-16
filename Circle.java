@@ -18,7 +18,6 @@ class Circle {
         obj.area();
         obj.circumference();
 
-        sc.close();
     }
     
 }
